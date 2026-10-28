@@ -1,3 +1,5 @@
+#include "AutoDiscovery.h"
+#include <sys/wait.h>
 #include <iostream>
 #include <thread>
 #include <mutex>
@@ -30,7 +32,7 @@ std::mutex inventoryMutex;
 struct Config {
     int port = 2028;
     std::string id = "SI-01";
-    std::string inventory = "tienda.dat";
+    std::string inventory = "";
     std::string certificate = "certs/server.crt";
     std::string key = "certs/server.key";
     std::string intermediaryHost;
@@ -56,7 +58,8 @@ Config parseArguments(int argc, char** argv) {
             std::cout << "Uso: " << argv[0]
                       << " [--id SI-01] [--port 2028] [--inventario tienda.dat]"
                       << " [--cert certs/server.crt] [--key certs/server.key]"
-                      << " [--intermediario IP:2027] [--host IP_VISIBLE]\n";
+                      << " [--intermediario IP:2027] [--host IP_VISIBLE]\n"
+                      << "Sin --intermediario descubre INT-01 automaticamente (UDP 2026).\n";
             std::exit(0);
         }
         if (index + 1 >= argc) {
@@ -165,14 +168,47 @@ void handleClient(std::unique_ptr<VSocket> client, FileSystem& filesystem, const
 int main(int argc, char** argv) {
     try {
         Config config = parseArguments(argc, argv);
+        if(config.inventory.empty())config.inventory=config.id+".dat";
+        // Descubrimiento automático: respuesta UDP incluye el certificado CA publico.
+        // En la primera conexion esta confianza es TOFU (no autenticada).
+        if(config.intermediaryHost.empty()) {
+            auto found=AutoDiscovery::find();
+            config.intermediaryHost=found.ip;
+            config.intermediaryPort=2027;
+            std::ifstream previous("certs/siqp-trust.crt",std::ios::binary);
+            std::string old((std::istreambuf_iterator<char>(previous)),std::istreambuf_iterator<char>());
+            // Conservamos el anclaje existente: nunca sustituir automaticamente CA distinta.
+            std::string candidateCert="certs/"+config.id+".crt";
+            std::string candidateKey="certs/"+config.id+".key";
+            if(!old.empty() && old!=found.ca &&
+               (access(candidateCert.c_str(),F_OK)==0 || access(candidateKey.c_str(),F_OK)==0))
+                throw std::runtime_error("CA diferente: bodega ya inscrita, no se reemplaza confianza automaticamente");
+            if(old!=found.ca){
+                mkdir("certs",0700);
+                std::ofstream out("certs/siqp-trust.crt",std::ios::binary);out<<found.ca;
+                if(!out)throw std::runtime_error("No se pudo guardar CA descubierta");
+                std::cerr<<"[ADVERTENCIA] Confianza TLS inicial obtenida por UDP sin autenticar (TOFU). Solo laboratorio aislado.\n";
+            }
+            std::cout<<"["<<config.id<<"] Intermediario descubierto: "<<config.intermediaryHost<<":2027\n";
+        }
+        // Creacion de identidad unica para esta bodega sin pedir token.
+        std::string certPath="certs/"+config.id+".crt", keyPath="certs/"+config.id+".key";
+        if(access(certPath.c_str(),F_OK)!=0||access(keyPath.c_str(),F_OK)!=0){
+            pid_t pid=fork();
+            if(pid==0){execl("./TLSManager.out","TLSManager.out","enroll","--id",config.id.c_str(),"--host",config.intermediaryHost.c_str(),"--auto","yes",(char*)nullptr);_exit(127);}
+            if(pid<0)throw std::runtime_error("No se pudo ejecutar TLSManager");
+            int status=0;waitpid(pid,&status,0);
+            if(!WIFEXITED(status)||WEXITSTATUS(status)!=0)throw std::runtime_error("No se pudo inscribir la bodega automaticamente");
+        }
+        config.certificate=certPath;
+        config.key=keyPath;
+        setenv("SIQP_CA_FILE","certs/siqp-trust.crt",1);
+        setenv("SIQP_CLIENT_CERT",certPath.c_str(),1);
+        setenv("SIQP_CLIENT_KEY",keyPath.c_str(),1);
         if (!config.intermediaryHost.empty() && config.advertiseHost.empty())
             config.advertiseHost=detectAddress(config.intermediaryHost,config.intermediaryPort);
         if (config.advertiseHost.empty()) config.advertiseHost="127.0.0.1";
         FileSystem filesystem(config.inventory);
-        if (!config.intermediaryHost.empty()) {
-            if (!std::getenv("SIQP_CLIENT_CERT") || !std::getenv("SIQP_CLIENT_KEY"))
-                throw std::runtime_error("Falta identidad TLS de la bodega. Inicia con ./start-bodega.sh");
-        }
         std::unique_ptr<VSocket> server(new SSLSocket(config.certificate.c_str(), config.key.c_str(), false));
         server->Bind(config.port);
         server->MarkPassive(20);

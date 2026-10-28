@@ -1,3 +1,6 @@
+#include "AutoDiscovery.h"
+#include <sys/wait.h>
+#include <unistd.h>
 
 #include <iostream>
 #include <thread>
@@ -1040,6 +1043,19 @@ void handleClient(VSocket *client) {
 
 int main() {
     try {
+        // Primera ejecucion: generar CA y certificado de INT-01 localmente.
+        if (access(".tls-private/ca.key",F_OK)!=0) {
+            std::cerr << "[INT-01] Primera ejecucion: creando identidad TLS...\n";
+            int code=std::system("./TLSManager.out init --migrate");
+            if(code!=0) throw std::runtime_error("Fallo el inicio automatico TLS");
+        }
+        // El servicio de alta vive en proceso separado. Solo el intermediario tiene la clave CA.
+        pid_t child=fork();
+        if(child==0){execl("./TLSManager.out","TLSManager.out","serve","--port","9443","--auto","yes",(char*)nullptr);_exit(127);}
+        if(child<0)throw std::runtime_error("No se pudo iniciar servicio TLS");
+        std::thread([](){AutoDiscovery::responder();}).detach();
+        std::cerr << "[SEGURIDAD] Modo laboratorio: inscripcion automatica SIN autenticar equipos nuevos. Use solo red aislada.\n";
+
         std::unique_ptr<VSocket> server(
             new SSLSocket(
                 "certs/server.crt",

@@ -78,3 +78,5 @@ TLSProvision.out: TLSProvision.cc
 
 TLSManager.out: TLSManager.cc
 	$(CXX) $(CXXFLAGS) $< $(SSL_LIBS) -o $@
+
+Intermediario.o ThreadMirrorServer.o: AutoDiscovery.h

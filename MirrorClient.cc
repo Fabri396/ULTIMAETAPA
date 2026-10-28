@@ -8,6 +8,10 @@
 #include <cstdlib>
 #include <map>
 #include <stdexcept>
+#include <fstream>
+#include <cerrno>
+#include <sys/stat.h>
+#include "AutoDiscovery.h"
 
 #include "Socket.h"
 #include "SSLSocket.h"
@@ -16,7 +20,28 @@
 #define PORT 2027
 #define BUFSIZE 8192
 
-const std::string SERVER_IP = std::getenv("SIQP_INTERMEDIARY") ? std::getenv("SIQP_INTERMEDIARY") : "127.0.0.1";
+// Descubre el intermediario en cada solicitud: tolera cambios de IP tras reinicios.
+// La primera CA descubierta se conserva (TOFU); nunca se sustituye silenciosamente.
+std::string findIntermediary() {
+    const char* manual = std::getenv("SIQP_INTERMEDIARY");
+    if (manual && *manual) return manual;
+    AutoDiscovery::Server found = AutoDiscovery::find();
+    const std::string path = "certs/siqp-trust.crt";
+    std::ifstream file(path.c_str(), std::ios::binary);
+    const std::string saved((std::istreambuf_iterator<char>(file)),
+                            std::istreambuf_iterator<char>());
+    if (!saved.empty() && saved != found.ca)
+        throw std::runtime_error("La CA anunciada difiere de la CA confiable. No se reemplaza automaticamente.");
+    if (saved.empty()) {
+        if (mkdir("certs", 0700) != 0 && errno != EEXIST)
+            throw std::runtime_error("No se pudo crear certs/");
+        std::ofstream out(path.c_str(), std::ios::binary | std::ios::trunc);
+        if (!out || !(out << found.ca))
+            throw std::runtime_error("No se pudo guardar certs/siqp-trust.crt");
+        std::cerr << "[ADVERTENCIA] Primera confianza TLS recibida por UDP sin autenticar; usar solo en laboratorio aislado.\n";
+    }
+    return found.ip;
+}
 const std::string CLIENT_ID = "CLI-01";
 const std::string SERVER_ID = "SI-01";
 
@@ -421,8 +446,9 @@ std::string sendRequest(const std::string& request) {
         new SSLSocket(false)
     );
 
+    const std::string serverIp = findIntermediary();
     int result = static_cast<SSLSocket*>(socket.get())->ConnectVerified(
-        SERVER_IP.c_str(), PORT, "INT-01"
+        serverIp.c_str(), PORT, "INT-01"
     );
 
     if (result < 0) {
@@ -460,7 +486,7 @@ int main() {
         << "====================================\n"
         << "       CLIENTE SIQP/1.0\n"
         << "====================================\n"
-        << "Servidor: " << SERVER_IP << ":" << PORT << "\n"
+        << "Servidor: descubrimiento automatico UDP 2026 (TLS INT-01)\n"
         << "Escribe help para ver los comandos.\n"
         << "Escribe exit para salir.\n"
         << std::endl;
