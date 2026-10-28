@@ -12,6 +12,10 @@
 #include <vector>
 #include <fstream>
 #include <sys/stat.h>
+#include <arpa/inet.h>
+#include <sys/socket.h>
+#include <netdb.h>
+#include <unistd.h>
 
 #include "Socket.h"
 #include "FileSystem.h"
@@ -31,7 +35,7 @@ struct Config {
     std::string key = "certs/server.key";
     std::string intermediaryHost;
     int intermediaryPort = 2027;
-    std::string advertiseHost = "127.0.0.1";
+    std::string advertiseHost;
 };
 
 int parsePort(const std::string& value) {
@@ -77,6 +81,24 @@ Config parseArguments(int argc, char** argv) {
     return config;
 }
 
+std::string detectAddress(const std::string& host, int port) {
+    int fd=socket(AF_INET,SOCK_DGRAM,0);
+    if(fd<0) throw std::runtime_error("No se pudo detectar IP local");
+    sockaddr_in peer{};peer.sin_family=AF_INET;peer.sin_port=htons(port);
+    if(inet_pton(AF_INET,host.c_str(),&peer.sin_addr)!=1) {
+        addrinfo hints{};hints.ai_family=AF_INET;hints.ai_socktype=SOCK_DGRAM;
+        addrinfo* result=nullptr;
+        if(getaddrinfo(host.c_str(),nullptr,&hints,&result)!=0) {close(fd);throw std::runtime_error("No se pudo resolver DNS del intermediario");}
+        peer.sin_addr=((sockaddr_in*)result->ai_addr)->sin_addr;
+        freeaddrinfo(result);
+    }
+    if(connect(fd,(sockaddr*)&peer,sizeof(peer))!=0){close(fd);throw std::runtime_error("No hay ruta hacia intermediario");}
+    sockaddr_in local{};socklen_t size=sizeof(local);
+    if(getsockname(fd,(sockaddr*)&local,&size)!=0){close(fd);throw std::runtime_error("No se pudo determinar IP");}
+    char buffer[INET_ADDRSTRLEN]{};inet_ntop(AF_INET,&local.sin_addr,buffer,sizeof(buffer));close(fd);
+    return buffer;
+}
+
 void registrationLoop(const Config& config, FileSystem& filesystem) {
     unsigned long sequence = 0;
     while (true) {
@@ -100,7 +122,7 @@ void registrationLoop(const Config& config, FileSystem& filesystem) {
             message.body = "host=" + config.advertiseHost + ";puerto=" +
                            std::to_string(config.port) + ";categorias=" + names;
             SSLSocket connection(false);
-            connection.Connect(config.intermediaryHost.c_str(), config.intermediaryPort);
+            connection.ConnectVerified(config.intermediaryHost.c_str(), config.intermediaryPort, "INT-01");
             std::string raw = SIQPProtocol::buildMessage(message);
             connection.Write(raw.c_str(), raw.size());
             char buffer[8192] = {};
@@ -142,8 +164,15 @@ void handleClient(std::unique_ptr<VSocket> client, FileSystem& filesystem, const
 
 int main(int argc, char** argv) {
     try {
-        const Config config = parseArguments(argc, argv);
+        Config config = parseArguments(argc, argv);
+        if (!config.intermediaryHost.empty() && config.advertiseHost.empty())
+            config.advertiseHost=detectAddress(config.intermediaryHost,config.intermediaryPort);
+        if (config.advertiseHost.empty()) config.advertiseHost="127.0.0.1";
         FileSystem filesystem(config.inventory);
+        if (!config.intermediaryHost.empty()) {
+            if (!std::getenv("SIQP_CLIENT_CERT") || !std::getenv("SIQP_CLIENT_KEY"))
+                throw std::runtime_error("Falta identidad TLS de la bodega. Inicia con ./start-bodega.sh");
+        }
         std::unique_ptr<VSocket> server(new SSLSocket(config.certificate.c_str(), config.key.c_str(), false));
         server->Bind(config.port);
         server->MarkPassive(20);

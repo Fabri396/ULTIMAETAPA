@@ -126,7 +126,7 @@ static void dashboardServer() {
     sockaddr_in addr = {};
     addr.sin_family = AF_INET;
     addr.sin_port = htons(8082);
-    addr.sin_addr.s_addr = htonl(INADDR_ANY);
+    addr.sin_addr.s_addr = htonl(INADDR_LOOPBACK);
     if (bind(fd, reinterpret_cast<sockaddr*>(&addr), sizeof(addr)) != 0 ||
         listen(fd, 16) != 0) {
         std::cerr << "[WEB] No se pudo abrir puerto 8081\n";
@@ -252,9 +252,8 @@ std::string queryLocalInventory(
         new SSLSocket(false)
     );
 
-    socket->Connect(
-        INVENTORY_IP.c_str(),
-        INVENTORY_PORT
+    static_cast<SSLSocket*>(socket.get())->ConnectVerified(
+        INVENTORY_IP.c_str(), INVENTORY_PORT, "SI-01"
     );
 
     socket->Write(request.c_str());
@@ -573,7 +572,14 @@ std::string translateRemoteResponse(
 
 std::string queryWarehouse(const std::string& host, int port, const std::string& request) {
     SSLSocket connection(false);
-    connection.Connect(host.c_str(), port);
+    std::string identity;
+    {
+        std::lock_guard<std::mutex> lock(registryMutex);
+        for (const auto& item:warehouses)
+            if(item.second.host==host && item.second.port==port) {identity=item.first;break;}
+    }
+    if (identity.empty()) throw std::runtime_error("No existe identidad de bodega registrada");
+    connection.ConnectVerified(host.c_str(), port, identity.c_str());
     connection.Write(request.c_str(), request.size());
     char buffer[BUFFER_SIZE] = {};
     size_t count = connection.Read(buffer, sizeof(buffer) - 1);
@@ -988,6 +994,15 @@ void handleClient(VSocket *client) {
         }
         if (!heartbeat) AuditLog::write(INTERMEDIARY_ID, "SOLICITUD", loggedRequest);
         std::string response;
+        if (heartbeat) {
+            SSLSocket* tls = dynamic_cast<SSLSocket*>(socket.get());
+            const std::string peer = tls ? tls->PeerIdentity() : "";
+            if (peer.empty() || peer != logFields[3]) {
+                AuditLog::write(INTERMEDIARY_ID, "REGISTRO_RECHAZADO", "Identidad TLS no autorizada");
+                socket->Write(buildError(logFields,"106").c_str());
+                return;
+            }
+        }
 
         try {
             response = processRequest(message);

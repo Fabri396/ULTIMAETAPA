@@ -5,6 +5,7 @@
 #include <cstring>
 #include <iomanip>
 #include <memory>
+#include <cstdlib>
 #include <map>
 #include <stdexcept>
 
@@ -15,7 +16,7 @@
 #define PORT 2027
 #define BUFSIZE 8192
 
-const std::string SERVER_IP = "127.0.0.1";
+const std::string SERVER_IP = std::getenv("SIQP_INTERMEDIARY") ? std::getenv("SIQP_INTERMEDIARY") : "127.0.0.1";
 const std::string CLIENT_ID = "CLI-01";
 const std::string SERVER_ID = "SI-01";
 
@@ -420,9 +421,8 @@ std::string sendRequest(const std::string& request) {
         new SSLSocket(false)
     );
 
-    int result = socket->Connect(
-        SERVER_IP.c_str(),
-        PORT
+    int result = static_cast<SSLSocket*>(socket.get())->ConnectVerified(
+        SERVER_IP.c_str(), PORT, "INT-01"
     );
 
     if (result < 0) {

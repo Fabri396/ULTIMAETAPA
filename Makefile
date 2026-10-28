@@ -7,7 +7,8 @@ SSL_LIBS = -lssl -lcrypto
 SOCKET_OBJS = VSocket.o Socket.o SSLSocket.o
 INVENTORY_OBJS = FileSystem.o SIQPProtocol.o
 
-TARGETS = ForkMirrorServer.out \
+TARGETS = TLSManager.out \
+          ForkMirrorServer.out \
           ThreadMirrorServer.out \
           MirrorClient.out \
           Intermediario.out \
@@ -74,3 +75,6 @@ clean:
 # Agregar al Makefile original
 TLSProvision.out: TLSProvision.cc
 	$(CXX) $(CXXFLAGS) $< -lssl -lcrypto -o $@
+
+TLSManager.out: TLSManager.cc
+	$(CXX) $(CXXFLAGS) $< $(SSL_LIBS) -o $@

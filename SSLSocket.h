@@ -3,6 +3,7 @@
 #define SSLSocket_h
 
 #include <cstddef>
+#include <string>
 #include "VSocket.h"
 
 class SSLSocket : public VSocket {
@@ -22,6 +23,8 @@ public:
     ~SSLSocket();
 
     int Connect(const char* host, int port) override;
+    int ConnectVerified(const char* host, int port, const char* identity);
+    std::string PeerIdentity() const;
     int Connect(const char* host, const char* service) override;
 
     size_t Read(void* buffer, size_t size) override;

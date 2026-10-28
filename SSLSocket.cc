@@ -183,7 +183,19 @@ void SSLSocket::InitContext(bool server) {
         throw tlsError("SSL_CTX_set_min_proto_version");
     }
 
+    if (server) {
+        // Request a certificate if available; ordinary CLI users can connect without one.
+        // Registry operations explicitly require a verified warehouse identity.
+        SSL_CTX_set_verify(context, SSL_VERIFY_PEER, nullptr);
+        if (SSL_CTX_load_verify_locations(context, "certs/siqp-trust.crt", nullptr) != 1)
+            throw std::runtime_error("Falta certs/siqp-trust.crt para validar bodegas");
+    }
     if (!server) {
+        const char* certFile = std::getenv("SIQP_CLIENT_CERT");
+        const char* keyFile = std::getenv("SIQP_CLIENT_KEY");
+        if ((certFile && *certFile) != (keyFile && *keyFile))
+            throw std::runtime_error("SIQP_CLIENT_CERT y SIQP_CLIENT_KEY deben configurarse juntos");
+        if (certFile && *certFile) LoadCertificates(certFile, keyFile);
         SSL_CTX_set_verify(
             context,
             SSL_VERIFY_PEER,
@@ -263,6 +275,40 @@ int SSLSocket::FinishConnect(int result) {
     }
 
     return 1;
+}
+
+int SSLSocket::ConnectVerified(const char* host, int port, const char* identity) {
+    if (serverMode || !identity || !*identity) throw std::invalid_argument("Identidad TLS requerida");
+    SSL* ssl = static_cast<SSL*>(BIO);
+    unsigned char addr[16];
+    const bool isIP = inet_pton(AF_INET,identity,addr)==1 || inet_pton(AF_INET6,identity,addr)==1;
+    if ((isIP ? X509_VERIFY_PARAM_set1_ip_asc(SSL_get0_param(ssl),identity) : SSL_set1_host(ssl,identity)) != 1)
+        throw tlsError("Identidad TLS");
+    if (!isIP && SSL_set_tlsext_host_name(ssl,identity)!=1) throw tlsError("SNI");
+    return FinishConnect(TryToConnect(host,std::to_string(port).c_str()));
+}
+
+std::string SSLSocket::PeerIdentity() const {
+    SSL* ssl=static_cast<SSL*>(BIO);
+    if (!ssl || SSL_get_verify_result(ssl)!=X509_V_OK) return "";
+    X509* cert=SSL_get1_peer_certificate(ssl);
+    if (!cert) return "";
+    std::string name;
+    GENERAL_NAMES* sans=(GENERAL_NAMES*)X509_get_ext_d2i(cert,NID_subject_alt_name,nullptr,nullptr);
+    if (sans) {
+        for(int i=0;i<sk_GENERAL_NAME_num(sans);++i) {
+            const GENERAL_NAME* entry=sk_GENERAL_NAME_value(sans,i);
+            if (entry->type==GEN_DNS) {
+                const ASN1_STRING* str=entry->d.dNSName;
+                const char* data=(const char*)ASN1_STRING_get0_data(str);
+                const int len=ASN1_STRING_length(str);
+                if (len>0 && !std::memchr(data,0,len)) {name.assign(data,len);break;}
+            }
+        }
+        GENERAL_NAMES_free(sans);
+    }
+    X509_free(cert);
+    return name;
 }
 
 int SSLSocket::Connect(const char* host, int port) {
