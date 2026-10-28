@@ -1,0 +1,808 @@
+2026-10-28 14:53:32 | SOLICITUD | SIQP/1.0|16|00001|CLI-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 14:53:32 | RESPUESTA | SIQP/1.0|17|00001|SI-01|CLI-01|categoria=ganaderia;producto=vacas;cantidad=16
+2026-10-28 14:53:39 | SOLICITUD | SIQP/1.0|60|00002|CLI-01|SI-01|categoria=ganaderia;producto=vacas;cantidad=1
+2026-10-28 14:53:39 | RESPUESTA | SIQP/1.0|61|00002|SI-01|CLI-01|producto=vacas;cantidad=1;precio=150000;total=150000;restante=15
+2026-10-28 14:57:17 | ERROR_REGISTRO | VSocket::TryToConnect
+2026-10-28 14:57:22 | ERROR_REGISTRO | VSocket::TryToConnect
+2026-10-28 15:06:32 | ERROR_REGISTRO | VSocket::TryToConnect
+2026-10-28 15:06:37 | ERROR_REGISTRO | VSocket::TryToConnect
+2026-10-28 15:06:42 | ERROR_REGISTRO | VSocket::TryToConnect
+2026-10-28 15:06:47 | ERROR_REGISTRO | VSocket::TryToConnect
+2026-10-28 15:06:52 | ERROR_REGISTRO | VSocket::TryToConnect
+2026-10-28 15:06:57 | ERROR_REGISTRO | VSocket::TryToConnect
+2026-10-28 15:07:02 | ERROR_REGISTRO | VSocket::TryToConnect
+2026-10-28 15:07:07 | ERROR_REGISTRO | VSocket::TryToConnect
+2026-10-28 15:07:12 | ERROR_REGISTRO | VSocket::TryToConnect
+2026-10-28 15:07:17 | ERROR_REGISTRO | VSocket::TryToConnect
+2026-10-28 15:07:22 | ERROR_REGISTRO | VSocket::TryToConnect
+2026-10-28 15:07:27 | ERROR_REGISTRO | VSocket::TryToConnect
+2026-10-28 15:07:32 | ERROR_REGISTRO | VSocket::TryToConnect
+2026-10-28 15:07:37 | ERROR_REGISTRO | VSocket::TryToConnect
+2026-10-28 15:07:42 | ERROR_REGISTRO | VSocket::TryToConnect
+2026-10-28 15:07:47 | ERROR_REGISTRO | VSocket::TryToConnect
+2026-10-28 15:07:52 | ERROR_REGISTRO | VSocket::TryToConnect
+2026-10-28 15:07:57 | ERROR_REGISTRO | VSocket::TryToConnect
+2026-10-28 15:08:02 | ERROR_REGISTRO | VSocket::TryToConnect
+2026-10-28 15:08:07 | ERROR_REGISTRO | VSocket::TryToConnect
+2026-10-28 15:08:12 | ERROR_REGISTRO | VSocket::TryToConnect
+2026-10-28 15:08:17 | ERROR_REGISTRO | VSocket::TryToConnect
+2026-10-28 15:08:22 | ERROR_REGISTRO | VSocket::TryToConnect
+2026-10-28 15:08:27 | ERROR_REGISTRO | VSocket::TryToConnect
+2026-10-28 15:08:32 | ERROR_REGISTRO | VSocket::TryToConnect
+2026-10-28 15:09:20 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:09:20 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:09:20 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:09:20 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=15;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:09:21 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:09:21 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:09:21 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:09:21 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=15;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:09:23 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:09:23 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:09:23 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:09:23 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=15;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:09:24 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ropa
+2026-10-28 15:09:24 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ropa;productos=camisa
+2026-10-28 15:09:24 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ropa;producto=camisa
+2026-10-28 15:09:24 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ropa;producto=camisa;cantidad=35;precio=12500;ubicacion=Pasillo 3;descripcion=Camisa de algodon
+2026-10-28 15:09:25 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ropa
+2026-10-28 15:09:25 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ropa;productos=camisa
+2026-10-28 15:09:25 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ropa;producto=camisa
+2026-10-28 15:09:25 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ropa;producto=camisa;cantidad=35;precio=12500;ubicacion=Pasillo 3;descripcion=Camisa de algodon
+2026-10-28 15:09:27 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ropa
+2026-10-28 15:09:27 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ropa;productos=camisa
+2026-10-28 15:09:27 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ropa;producto=camisa
+2026-10-28 15:09:27 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ropa;producto=camisa;cantidad=35;precio=12500;ubicacion=Pasillo 3;descripcion=Camisa de algodon
+2026-10-28 15:11:57 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:11:57 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:11:57 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:11:57 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=15;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:11:57 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:11:57 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:11:57 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:11:57 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=15;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:11:59 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:11:59 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:11:59 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:11:59 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=15;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:12:01 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:12:01 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:12:01 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:12:01 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=15;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:12:03 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:12:03 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:12:03 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:12:03 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=15;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:12:05 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:12:05 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:12:05 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:12:05 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=15;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:12:07 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:12:07 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:12:07 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:12:07 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=15;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:12:09 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:12:09 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:12:09 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:12:09 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=15;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:12:11 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:12:11 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:12:11 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:12:11 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=15;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:12:13 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:12:13 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:12:13 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:12:13 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=15;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:12:15 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:12:15 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:12:15 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:12:15 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=15;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:12:17 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:12:17 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:12:17 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:12:17 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=15;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:12:18 | SOLICITUD | SIQP/1.0|60|00001|CLI-01|SI-01|categoria=ganaderia;producto=vacas;cantidad=14
+2026-10-28 15:12:18 | RESPUESTA | SIQP/1.0|61|00001|SI-01|CLI-01|producto=vacas;cantidad=14;precio=150000;total=2100000;restante=1
+2026-10-28 15:12:19 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:12:19 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:12:19 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:12:19 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:12:21 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:12:21 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:12:21 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:12:21 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:12:23 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:12:23 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:12:23 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:12:23 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:12:23 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ropa
+2026-10-28 15:12:23 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ropa;productos=camisa
+2026-10-28 15:12:23 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ropa;producto=camisa
+2026-10-28 15:12:23 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ropa;producto=camisa;cantidad=35;precio=12500;ubicacion=Pasillo 3;descripcion=Camisa de algodon
+2026-10-28 15:12:25 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ropa
+2026-10-28 15:12:25 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ropa;productos=camisa
+2026-10-28 15:12:25 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ropa;producto=camisa
+2026-10-28 15:12:25 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ropa;producto=camisa;cantidad=35;precio=12500;ubicacion=Pasillo 3;descripcion=Camisa de algodon
+2026-10-28 15:12:25 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:12:25 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:12:25 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:12:25 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:12:26 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ropa
+2026-10-28 15:12:26 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ropa;productos=camisa
+2026-10-28 15:12:26 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ropa;producto=camisa
+2026-10-28 15:12:26 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ropa;producto=camisa;cantidad=35;precio=12500;ubicacion=Pasillo 3;descripcion=Camisa de algodon
+2026-10-28 15:12:27 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ropa
+2026-10-28 15:12:27 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ropa;productos=camisa
+2026-10-28 15:12:27 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ropa;producto=camisa
+2026-10-28 15:12:27 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ropa;producto=camisa;cantidad=35;precio=12500;ubicacion=Pasillo 3;descripcion=Camisa de algodon
+2026-10-28 15:12:30 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:12:30 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:12:30 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:12:30 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:12:30 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:12:30 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:12:30 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:12:30 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:12:32 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:12:32 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:12:32 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:12:32 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:12:34 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:12:34 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:12:34 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:12:34 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:12:36 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:12:36 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:12:36 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:12:36 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:12:38 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:12:38 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:12:38 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:12:38 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:12:40 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:12:40 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:12:40 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:12:40 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:12:42 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:12:42 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:12:42 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:12:42 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:12:44 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:12:44 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:12:44 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:12:44 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:12:46 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:12:46 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:12:46 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:12:46 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:12:48 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:12:48 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:12:48 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:12:48 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:12:50 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:12:50 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:12:50 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:12:50 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:12:53 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:12:53 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:12:53 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:12:53 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:12:55 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:12:55 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:12:55 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:12:55 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:12:57 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:12:57 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:12:57 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:12:57 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:12:59 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:12:59 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:12:59 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:12:59 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:13:01 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:13:01 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:13:01 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:13:01 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:13:03 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:13:03 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:13:03 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:13:03 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:13:05 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:13:05 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:13:05 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:13:05 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:13:07 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:13:07 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:13:07 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:13:07 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:13:09 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:13:09 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:13:09 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:13:09 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:13:11 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:13:11 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:13:11 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:13:11 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:13:13 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:13:13 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:13:13 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:13:13 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:13:15 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:13:15 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:13:15 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:13:15 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:13:17 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:13:17 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:13:17 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:13:17 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:13:19 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:13:19 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:13:19 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:13:19 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:13:21 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:13:21 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:13:21 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:13:21 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:13:23 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:13:23 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:13:23 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:13:23 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:13:25 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:13:25 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:13:25 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:13:25 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:13:27 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:13:27 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:13:27 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:13:27 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:13:29 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:13:29 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:13:29 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:13:29 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:13:31 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:13:31 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:13:31 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:13:31 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:13:33 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:13:33 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:13:33 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:13:33 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:13:35 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:13:35 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:13:35 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:13:35 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:13:37 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:13:37 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:13:37 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:13:37 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:13:39 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:13:39 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:13:39 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:13:39 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:13:41 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:13:41 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:13:41 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:13:41 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:13:43 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:13:43 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:13:43 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:13:43 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:13:45 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:13:45 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:13:45 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:13:45 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:13:47 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:13:47 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:13:47 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:13:47 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:13:49 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:13:49 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:13:49 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:13:49 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:13:51 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:13:51 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:13:51 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:13:51 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:14:30 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:14:30 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:14:30 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:14:30 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:15:30 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:15:30 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:15:30 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:15:30 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:17:30 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:17:30 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:17:30 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:17:30 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:18:10 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:18:10 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:18:10 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:18:10 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:18:12 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:18:12 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:18:12 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:18:12 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:18:14 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:18:14 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:18:14 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:18:14 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:18:16 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:18:16 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:18:16 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:18:16 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:18:18 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:18:18 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:18:18 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:18:18 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:18:20 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:18:20 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:18:20 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:18:20 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:18:22 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:18:22 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:18:22 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:18:22 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:18:24 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:18:24 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:18:24 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:18:24 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:18:26 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:18:26 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:18:26 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:18:26 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:18:28 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:18:28 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:18:28 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:18:28 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:18:30 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:18:30 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:18:30 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:18:30 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:18:32 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:18:32 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:18:32 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:18:32 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:18:34 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:18:34 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:18:34 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:18:34 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:18:36 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:18:36 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:18:36 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:18:36 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:18:38 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:18:38 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:18:38 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:18:38 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:18:40 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:18:40 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:18:40 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:18:40 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:18:42 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:18:42 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:18:42 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:18:42 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:18:44 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:18:44 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:18:44 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:18:44 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:18:46 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:18:46 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:18:46 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:18:46 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:18:48 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:18:48 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:18:48 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:18:48 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:18:50 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:18:50 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:18:50 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:18:50 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:18:52 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:18:52 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:18:52 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:18:52 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:18:54 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:18:54 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:18:54 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:18:54 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:18:56 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:18:56 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:18:56 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:18:56 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:18:58 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:18:58 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:18:58 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:18:58 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:19:00 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:19:00 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:19:00 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:19:00 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:19:02 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:19:02 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:19:02 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:19:02 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:19:04 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:19:04 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:19:04 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:19:04 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:19:06 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:19:06 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:19:06 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:19:06 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:19:08 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:19:08 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:19:08 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:19:08 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:19:10 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:19:10 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:19:10 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:19:10 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:19:12 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:19:12 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:19:12 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:19:12 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:19:15 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:19:15 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:19:15 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:19:15 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:19:17 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:19:17 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:19:17 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:19:17 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:19:19 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:19:19 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:19:19 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:19:19 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:19:21 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:19:21 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:19:21 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:19:21 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:19:23 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:19:23 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:19:23 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:19:23 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:19:25 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:19:25 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:19:25 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:19:25 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:19:27 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:19:27 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:19:27 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:19:27 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:19:29 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:19:29 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:19:29 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:19:29 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:19:31 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:19:31 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:19:31 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:19:31 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:19:33 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:19:33 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:19:33 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:19:33 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:19:35 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:19:35 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:19:35 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:19:35 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:19:37 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:19:37 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:19:37 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:19:37 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:19:39 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:19:39 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:19:39 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:19:39 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:19:41 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:19:41 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:19:41 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:19:41 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:19:43 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:19:43 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:19:43 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:19:43 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:19:44 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:19:44 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:19:44 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:19:44 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:19:46 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:19:46 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:19:46 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:19:46 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:19:48 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:19:48 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:19:48 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:19:48 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:19:50 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:19:50 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:19:50 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:19:50 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:19:52 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:19:52 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:19:52 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:19:52 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:19:54 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:19:54 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:19:54 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:19:54 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:19:56 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:19:56 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:19:56 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:19:56 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:19:58 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:19:58 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:19:58 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:19:58 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:20:00 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:20:00 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:20:00 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:20:00 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:20:02 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:20:02 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:20:02 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:20:02 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:20:04 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:20:04 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:20:04 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:20:04 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:20:06 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:20:06 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:20:06 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:20:06 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:20:08 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:20:08 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:20:08 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:20:08 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:20:10 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:20:10 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:20:10 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:20:10 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:20:12 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:20:12 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:20:12 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:20:12 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:20:14 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:20:14 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:20:14 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:20:14 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:20:16 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:20:16 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:20:16 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:20:16 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:20:18 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:20:18 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:20:18 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:20:18 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:20:20 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:20:20 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:20:20 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:20:20 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:20:22 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:20:22 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:20:22 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:20:22 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:20:24 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:20:24 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:20:24 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:20:24 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:20:26 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:20:26 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:20:26 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:20:26 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:20:28 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:20:28 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:20:28 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:20:28 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:20:30 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:20:30 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:20:30 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:20:30 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:20:32 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:20:32 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:20:32 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:20:32 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:20:34 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:20:34 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:20:34 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:20:34 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:20:36 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:20:36 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:20:36 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:20:36 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:20:38 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:20:38 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:20:38 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:20:38 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:20:40 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:20:40 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:20:40 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:20:40 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:20:42 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:20:42 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:20:42 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:20:42 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:20:44 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:20:44 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:20:44 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:20:44 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:20:46 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:20:46 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:20:46 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:20:46 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:20:48 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:20:48 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:20:48 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:20:48 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:20:50 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:20:50 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:20:50 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:20:50 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:20:52 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:20:52 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:20:52 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:20:52 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:20:54 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:20:54 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:20:54 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:20:54 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:20:56 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:20:56 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:20:56 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:20:56 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:20:58 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:20:58 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:20:58 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:20:58 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:21:00 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:21:00 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:21:00 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:21:00 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:21:02 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:21:02 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:21:02 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:21:02 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:21:04 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:21:04 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:21:04 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:21:04 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:21:06 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:21:06 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:21:06 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:21:06 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:21:08 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:21:08 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:21:08 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:21:08 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:21:10 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:21:10 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:21:10 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:21:10 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:21:12 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:21:12 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:21:12 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:21:12 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:26:10 | ERROR_REGISTRO | VSocket::TryToConnect
+2026-10-28 15:28:21 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:28:21 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:28:21 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:28:21 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:28:22 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:28:22 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:28:22 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:28:22 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:28:24 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:28:24 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:28:24 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:28:24 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:28:26 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:28:26 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:28:26 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:28:26 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:28:28 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:28:28 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:28:28 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:28:28 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:28:30 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:28:30 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:28:30 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:28:30 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:28:32 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:28:32 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:28:32 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:28:32 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:28:34 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:28:34 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:28:34 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:28:34 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:28:37 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:28:37 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:28:37 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:28:37 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:28:39 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:28:39 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:28:39 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:28:39 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:28:41 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:28:41 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:28:41 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:28:41 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:28:43 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:28:43 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:28:43 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:28:43 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:28:45 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:28:45 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:28:45 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:28:45 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:28:47 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:28:47 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:28:47 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:28:47 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:28:49 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:28:49 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:28:49 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:28:49 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:28:51 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:28:51 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:28:51 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:28:51 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:28:53 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:28:53 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:28:53 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:28:53 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:28:54 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:28:54 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:28:54 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:28:54 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:28:56 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:28:56 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:28:56 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:28:56 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:28:58 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:28:58 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:28:58 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:28:58 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:29:04 | SOLICITUD | SIQP/1.0|18|00009|INT-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:29:04 | RESPUESTA | SIQP/1.0|19|00009|SI-01|INT-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:31:43 | SOLICITUD | SIQP/1.0|18|00012|INT-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:31:43 | RESPUESTA | SIQP/1.0|19|00012|SI-01|INT-01|categoria=ganaderia;producto=vacas;cantidad=1;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:31:43 | SOLICITUD | SIQP/1.0|60|00012|INT-01|SI-01|categoria=ganaderia;producto=vacas;cantidad=1
+2026-10-28 15:31:43 | RESPUESTA | SIQP/1.0|61|00012|SI-01|INT-01|producto=vacas;cantidad=1;precio=150000;total=150000;restante=0
+2026-10-28 15:31:51 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:31:51 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:31:51 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:31:51 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=0;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:31:52 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:31:52 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:31:52 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:31:52 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=0;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:31:54 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:31:54 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:31:54 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:31:54 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=0;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:32:18 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:32:18 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:32:18 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:32:18 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=0;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:32:18 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:32:18 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:32:18 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:32:18 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=0;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:32:20 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:32:20 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:32:20 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:32:20 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=0;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:32:22 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:32:22 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:32:22 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:32:22 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=0;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:32:24 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:32:24 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:32:24 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:32:24 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=0;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde
+2026-10-28 15:32:26 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-01|categoria=ganaderia
+2026-10-28 15:32:26 | RESPUESTA | SIQP/1.0|15|WEB01|SI-01|WEB-01|categoria=ganaderia;productos=vacas
+2026-10-28 15:32:26 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-01|categoria=ganaderia;producto=vacas
+2026-10-28 15:32:26 | RESPUESTA | SIQP/1.0|19|WEB02|SI-01|WEB-01|categoria=ganaderia;producto=vacas;cantidad=0;precio=150000;ubicacion=Potrero 1;descripcion=Vacas de engorde

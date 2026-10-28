@@ -1,0 +1,294 @@
+2026-10-28 14:54:00 | SOLICITUD | SIQP/1.0|54|00003|CLI-01|SI-02|categoria=agricultura;producto=abono;cantidad=5
+2026-10-28 14:54:00 | RESPUESTA | SIQP/1.0|55|00003|SI-02|CLI-01|cantidad=75
+2026-10-28 14:57:20 | ERROR_REGISTRO | VSocket::TryToConnect
+2026-10-28 14:57:25 | ERROR_REGISTRO | VSocket::TryToConnect
+2026-10-28 15:06:32 | ERROR_REGISTRO | VSocket::TryToConnect
+2026-10-28 15:06:37 | ERROR_REGISTRO | VSocket::TryToConnect
+2026-10-28 15:06:42 | ERROR_REGISTRO | VSocket::TryToConnect
+2026-10-28 15:06:47 | ERROR_REGISTRO | VSocket::TryToConnect
+2026-10-28 15:06:52 | ERROR_REGISTRO | VSocket::TryToConnect
+2026-10-28 15:06:57 | ERROR_REGISTRO | VSocket::TryToConnect
+2026-10-28 15:07:02 | ERROR_REGISTRO | VSocket::TryToConnect
+2026-10-28 15:07:07 | ERROR_REGISTRO | VSocket::TryToConnect
+2026-10-28 15:07:12 | ERROR_REGISTRO | VSocket::TryToConnect
+2026-10-28 15:07:17 | ERROR_REGISTRO | VSocket::TryToConnect
+2026-10-28 15:07:22 | ERROR_REGISTRO | VSocket::TryToConnect
+2026-10-28 15:07:27 | ERROR_REGISTRO | VSocket::TryToConnect
+2026-10-28 15:07:32 | ERROR_REGISTRO | VSocket::TryToConnect
+2026-10-28 15:07:37 | ERROR_REGISTRO | VSocket::TryToConnect
+2026-10-28 15:07:42 | ERROR_REGISTRO | VSocket::TryToConnect
+2026-10-28 15:07:47 | ERROR_REGISTRO | VSocket::TryToConnect
+2026-10-28 15:07:52 | ERROR_REGISTRO | VSocket::TryToConnect
+2026-10-28 15:07:57 | ERROR_REGISTRO | VSocket::TryToConnect
+2026-10-28 15:08:02 | ERROR_REGISTRO | VSocket::TryToConnect
+2026-10-28 15:08:07 | ERROR_REGISTRO | VSocket::TryToConnect
+2026-10-28 15:08:12 | ERROR_REGISTRO | VSocket::TryToConnect
+2026-10-28 15:08:17 | ERROR_REGISTRO | VSocket::TryToConnect
+2026-10-28 15:08:22 | ERROR_REGISTRO | VSocket::TryToConnect
+2026-10-28 15:08:27 | ERROR_REGISTRO | VSocket::TryToConnect
+2026-10-28 15:08:32 | ERROR_REGISTRO | VSocket::TryToConnect
+2026-10-28 15:09:29 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-02|categoria=tecnologia
+2026-10-28 15:09:29 | RESPUESTA | SIQP/1.0|15|WEB01|SI-02|WEB-01|categoria=tecnologia;productos=computadora,mouse
+2026-10-28 15:09:29 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=computadora
+2026-10-28 15:09:29 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=computadora;cantidad=15;precio=350000;ubicacion=Bodega 1;descripcion=Computadora de escritorio
+2026-10-28 15:09:29 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=mouse
+2026-10-28 15:09:29 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=mouse;cantidad=40;precio=8500;ubicacion=Bodega 1;descripcion=Mouse USB
+2026-10-28 15:09:29 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-02|categoria=tecnologia
+2026-10-28 15:09:29 | RESPUESTA | SIQP/1.0|15|WEB01|SI-02|WEB-01|categoria=tecnologia;productos=computadora,mouse
+2026-10-28 15:09:29 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=computadora
+2026-10-28 15:09:29 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=computadora;cantidad=15;precio=350000;ubicacion=Bodega 1;descripcion=Computadora de escritorio
+2026-10-28 15:09:29 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=mouse
+2026-10-28 15:09:29 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=mouse;cantidad=40;precio=8500;ubicacion=Bodega 1;descripcion=Mouse USB
+2026-10-28 15:09:31 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-02|categoria=tecnologia
+2026-10-28 15:09:31 | RESPUESTA | SIQP/1.0|15|WEB01|SI-02|WEB-01|categoria=tecnologia;productos=computadora,mouse
+2026-10-28 15:09:31 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=computadora
+2026-10-28 15:09:31 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=computadora;cantidad=15;precio=350000;ubicacion=Bodega 1;descripcion=Computadora de escritorio
+2026-10-28 15:09:31 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=mouse
+2026-10-28 15:09:31 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=mouse;cantidad=40;precio=8500;ubicacion=Bodega 1;descripcion=Mouse USB
+2026-10-28 15:09:33 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-02|categoria=tecnologia
+2026-10-28 15:09:33 | RESPUESTA | SIQP/1.0|15|WEB01|SI-02|WEB-01|categoria=tecnologia;productos=computadora,mouse
+2026-10-28 15:09:33 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=computadora
+2026-10-28 15:09:33 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=computadora;cantidad=15;precio=350000;ubicacion=Bodega 1;descripcion=Computadora de escritorio
+2026-10-28 15:09:33 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=mouse
+2026-10-28 15:09:33 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=mouse;cantidad=40;precio=8500;ubicacion=Bodega 1;descripcion=Mouse USB
+2026-10-28 15:09:35 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-02|categoria=tecnologia
+2026-10-28 15:09:35 | RESPUESTA | SIQP/1.0|15|WEB01|SI-02|WEB-01|categoria=tecnologia;productos=computadora,mouse
+2026-10-28 15:09:35 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=computadora
+2026-10-28 15:09:35 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=computadora;cantidad=15;precio=350000;ubicacion=Bodega 1;descripcion=Computadora de escritorio
+2026-10-28 15:09:35 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=mouse
+2026-10-28 15:09:35 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=mouse;cantidad=40;precio=8500;ubicacion=Bodega 1;descripcion=Mouse USB
+2026-10-28 15:09:37 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-02|categoria=tecnologia
+2026-10-28 15:09:37 | RESPUESTA | SIQP/1.0|15|WEB01|SI-02|WEB-01|categoria=tecnologia;productos=computadora,mouse
+2026-10-28 15:09:37 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=computadora
+2026-10-28 15:09:37 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=computadora;cantidad=15;precio=350000;ubicacion=Bodega 1;descripcion=Computadora de escritorio
+2026-10-28 15:09:37 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=mouse
+2026-10-28 15:09:37 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=mouse;cantidad=40;precio=8500;ubicacion=Bodega 1;descripcion=Mouse USB
+2026-10-28 15:09:39 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-02|categoria=tecnologia
+2026-10-28 15:09:39 | RESPUESTA | SIQP/1.0|15|WEB01|SI-02|WEB-01|categoria=tecnologia;productos=computadora,mouse
+2026-10-28 15:09:39 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=computadora
+2026-10-28 15:09:39 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=computadora;cantidad=15;precio=350000;ubicacion=Bodega 1;descripcion=Computadora de escritorio
+2026-10-28 15:09:39 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=mouse
+2026-10-28 15:09:39 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=mouse;cantidad=40;precio=8500;ubicacion=Bodega 1;descripcion=Mouse USB
+2026-10-28 15:09:41 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-02|categoria=tecnologia
+2026-10-28 15:09:41 | RESPUESTA | SIQP/1.0|15|WEB01|SI-02|WEB-01|categoria=tecnologia;productos=computadora,mouse
+2026-10-28 15:09:41 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=computadora
+2026-10-28 15:09:41 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=computadora;cantidad=15;precio=350000;ubicacion=Bodega 1;descripcion=Computadora de escritorio
+2026-10-28 15:09:41 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=mouse
+2026-10-28 15:09:41 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=mouse;cantidad=40;precio=8500;ubicacion=Bodega 1;descripcion=Mouse USB
+2026-10-28 15:09:43 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-02|categoria=tecnologia
+2026-10-28 15:09:43 | RESPUESTA | SIQP/1.0|15|WEB01|SI-02|WEB-01|categoria=tecnologia;productos=computadora,mouse
+2026-10-28 15:09:43 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=computadora
+2026-10-28 15:09:43 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=computadora;cantidad=15;precio=350000;ubicacion=Bodega 1;descripcion=Computadora de escritorio
+2026-10-28 15:09:43 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=mouse
+2026-10-28 15:09:43 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=mouse;cantidad=40;precio=8500;ubicacion=Bodega 1;descripcion=Mouse USB
+2026-10-28 15:09:45 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-02|categoria=tecnologia
+2026-10-28 15:09:45 | RESPUESTA | SIQP/1.0|15|WEB01|SI-02|WEB-01|categoria=tecnologia;productos=computadora,mouse
+2026-10-28 15:09:45 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=computadora
+2026-10-28 15:09:45 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=computadora;cantidad=15;precio=350000;ubicacion=Bodega 1;descripcion=Computadora de escritorio
+2026-10-28 15:09:45 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=mouse
+2026-10-28 15:09:45 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=mouse;cantidad=40;precio=8500;ubicacion=Bodega 1;descripcion=Mouse USB
+2026-10-28 15:09:47 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-02|categoria=tecnologia
+2026-10-28 15:09:47 | RESPUESTA | SIQP/1.0|15|WEB01|SI-02|WEB-01|categoria=tecnologia;productos=computadora,mouse
+2026-10-28 15:09:47 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=computadora
+2026-10-28 15:09:47 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=computadora;cantidad=15;precio=350000;ubicacion=Bodega 1;descripcion=Computadora de escritorio
+2026-10-28 15:09:47 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=mouse
+2026-10-28 15:09:47 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=mouse;cantidad=40;precio=8500;ubicacion=Bodega 1;descripcion=Mouse USB
+2026-10-28 15:09:50 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-02|categoria=tecnologia
+2026-10-28 15:09:50 | RESPUESTA | SIQP/1.0|15|WEB01|SI-02|WEB-01|categoria=tecnologia;productos=computadora,mouse
+2026-10-28 15:09:50 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=computadora
+2026-10-28 15:09:50 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=computadora;cantidad=15;precio=350000;ubicacion=Bodega 1;descripcion=Computadora de escritorio
+2026-10-28 15:09:50 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=mouse
+2026-10-28 15:09:50 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=mouse;cantidad=40;precio=8500;ubicacion=Bodega 1;descripcion=Mouse USB
+2026-10-28 15:09:52 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-02|categoria=tecnologia
+2026-10-28 15:09:52 | RESPUESTA | SIQP/1.0|15|WEB01|SI-02|WEB-01|categoria=tecnologia;productos=computadora,mouse
+2026-10-28 15:09:52 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=computadora
+2026-10-28 15:09:52 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=computadora;cantidad=15;precio=350000;ubicacion=Bodega 1;descripcion=Computadora de escritorio
+2026-10-28 15:09:52 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=mouse
+2026-10-28 15:09:52 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=mouse;cantidad=40;precio=8500;ubicacion=Bodega 1;descripcion=Mouse USB
+2026-10-28 15:09:54 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-02|categoria=tecnologia
+2026-10-28 15:09:54 | RESPUESTA | SIQP/1.0|15|WEB01|SI-02|WEB-01|categoria=tecnologia;productos=computadora,mouse
+2026-10-28 15:09:54 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=computadora
+2026-10-28 15:09:54 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=computadora;cantidad=15;precio=350000;ubicacion=Bodega 1;descripcion=Computadora de escritorio
+2026-10-28 15:09:54 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=mouse
+2026-10-28 15:09:54 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=mouse;cantidad=40;precio=8500;ubicacion=Bodega 1;descripcion=Mouse USB
+2026-10-28 15:09:56 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-02|categoria=tecnologia
+2026-10-28 15:09:56 | RESPUESTA | SIQP/1.0|15|WEB01|SI-02|WEB-01|categoria=tecnologia;productos=computadora,mouse
+2026-10-28 15:09:56 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=computadora
+2026-10-28 15:09:56 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=computadora;cantidad=15;precio=350000;ubicacion=Bodega 1;descripcion=Computadora de escritorio
+2026-10-28 15:09:56 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=mouse
+2026-10-28 15:09:56 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=mouse;cantidad=40;precio=8500;ubicacion=Bodega 1;descripcion=Mouse USB
+2026-10-28 15:09:58 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-02|categoria=tecnologia
+2026-10-28 15:09:58 | RESPUESTA | SIQP/1.0|15|WEB01|SI-02|WEB-01|categoria=tecnologia;productos=computadora,mouse
+2026-10-28 15:09:58 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=computadora
+2026-10-28 15:09:58 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=computadora;cantidad=15;precio=350000;ubicacion=Bodega 1;descripcion=Computadora de escritorio
+2026-10-28 15:09:58 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=mouse
+2026-10-28 15:09:58 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=mouse;cantidad=40;precio=8500;ubicacion=Bodega 1;descripcion=Mouse USB
+2026-10-28 15:10:00 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-02|categoria=tecnologia
+2026-10-28 15:10:00 | RESPUESTA | SIQP/1.0|15|WEB01|SI-02|WEB-01|categoria=tecnologia;productos=computadora,mouse
+2026-10-28 15:10:00 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=computadora
+2026-10-28 15:10:00 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=computadora;cantidad=15;precio=350000;ubicacion=Bodega 1;descripcion=Computadora de escritorio
+2026-10-28 15:10:00 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=mouse
+2026-10-28 15:10:00 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=mouse;cantidad=40;precio=8500;ubicacion=Bodega 1;descripcion=Mouse USB
+2026-10-28 15:10:02 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-02|categoria=tecnologia
+2026-10-28 15:10:02 | RESPUESTA | SIQP/1.0|15|WEB01|SI-02|WEB-01|categoria=tecnologia;productos=computadora,mouse
+2026-10-28 15:10:02 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=computadora
+2026-10-28 15:10:02 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=computadora;cantidad=15;precio=350000;ubicacion=Bodega 1;descripcion=Computadora de escritorio
+2026-10-28 15:10:02 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=mouse
+2026-10-28 15:10:02 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=mouse;cantidad=40;precio=8500;ubicacion=Bodega 1;descripcion=Mouse USB
+2026-10-28 15:10:04 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-02|categoria=tecnologia
+2026-10-28 15:10:04 | RESPUESTA | SIQP/1.0|15|WEB01|SI-02|WEB-01|categoria=tecnologia;productos=computadora,mouse
+2026-10-28 15:10:04 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=computadora
+2026-10-28 15:10:04 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=computadora;cantidad=15;precio=350000;ubicacion=Bodega 1;descripcion=Computadora de escritorio
+2026-10-28 15:10:04 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=mouse
+2026-10-28 15:10:04 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=mouse;cantidad=40;precio=8500;ubicacion=Bodega 1;descripcion=Mouse USB
+2026-10-28 15:10:06 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-02|categoria=tecnologia
+2026-10-28 15:10:06 | RESPUESTA | SIQP/1.0|15|WEB01|SI-02|WEB-01|categoria=tecnologia;productos=computadora,mouse
+2026-10-28 15:10:06 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=computadora
+2026-10-28 15:10:06 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=computadora;cantidad=15;precio=350000;ubicacion=Bodega 1;descripcion=Computadora de escritorio
+2026-10-28 15:10:06 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=mouse
+2026-10-28 15:10:06 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=mouse;cantidad=40;precio=8500;ubicacion=Bodega 1;descripcion=Mouse USB
+2026-10-28 15:10:08 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-02|categoria=tecnologia
+2026-10-28 15:10:08 | RESPUESTA | SIQP/1.0|15|WEB01|SI-02|WEB-01|categoria=tecnologia;productos=computadora,mouse
+2026-10-28 15:10:08 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=computadora
+2026-10-28 15:10:08 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=computadora;cantidad=15;precio=350000;ubicacion=Bodega 1;descripcion=Computadora de escritorio
+2026-10-28 15:10:08 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=mouse
+2026-10-28 15:10:08 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=mouse;cantidad=40;precio=8500;ubicacion=Bodega 1;descripcion=Mouse USB
+2026-10-28 15:10:10 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-02|categoria=tecnologia
+2026-10-28 15:10:10 | RESPUESTA | SIQP/1.0|15|WEB01|SI-02|WEB-01|categoria=tecnologia;productos=computadora,mouse
+2026-10-28 15:10:10 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=computadora
+2026-10-28 15:10:10 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=computadora;cantidad=15;precio=350000;ubicacion=Bodega 1;descripcion=Computadora de escritorio
+2026-10-28 15:10:10 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=mouse
+2026-10-28 15:10:10 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=mouse;cantidad=40;precio=8500;ubicacion=Bodega 1;descripcion=Mouse USB
+2026-10-28 15:10:12 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-02|categoria=tecnologia
+2026-10-28 15:10:12 | RESPUESTA | SIQP/1.0|15|WEB01|SI-02|WEB-01|categoria=tecnologia;productos=computadora,mouse
+2026-10-28 15:10:12 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=computadora
+2026-10-28 15:10:12 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=computadora;cantidad=15;precio=350000;ubicacion=Bodega 1;descripcion=Computadora de escritorio
+2026-10-28 15:10:12 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=mouse
+2026-10-28 15:10:12 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=mouse;cantidad=40;precio=8500;ubicacion=Bodega 1;descripcion=Mouse USB
+2026-10-28 15:10:14 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-02|categoria=tecnologia
+2026-10-28 15:10:14 | RESPUESTA | SIQP/1.0|15|WEB01|SI-02|WEB-01|categoria=tecnologia;productos=computadora,mouse
+2026-10-28 15:10:14 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=computadora
+2026-10-28 15:10:14 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=computadora;cantidad=15;precio=350000;ubicacion=Bodega 1;descripcion=Computadora de escritorio
+2026-10-28 15:10:14 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=mouse
+2026-10-28 15:10:14 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=mouse;cantidad=40;precio=8500;ubicacion=Bodega 1;descripcion=Mouse USB
+2026-10-28 15:10:16 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-02|categoria=tecnologia
+2026-10-28 15:10:16 | RESPUESTA | SIQP/1.0|15|WEB01|SI-02|WEB-01|categoria=tecnologia;productos=computadora,mouse
+2026-10-28 15:10:16 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=computadora
+2026-10-28 15:10:16 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=computadora;cantidad=15;precio=350000;ubicacion=Bodega 1;descripcion=Computadora de escritorio
+2026-10-28 15:10:16 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=mouse
+2026-10-28 15:10:16 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=mouse;cantidad=40;precio=8500;ubicacion=Bodega 1;descripcion=Mouse USB
+2026-10-28 15:10:18 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-02|categoria=tecnologia
+2026-10-28 15:10:18 | RESPUESTA | SIQP/1.0|15|WEB01|SI-02|WEB-01|categoria=tecnologia;productos=computadora,mouse
+2026-10-28 15:10:18 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=computadora
+2026-10-28 15:10:18 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=computadora;cantidad=15;precio=350000;ubicacion=Bodega 1;descripcion=Computadora de escritorio
+2026-10-28 15:10:18 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=mouse
+2026-10-28 15:10:18 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=mouse;cantidad=40;precio=8500;ubicacion=Bodega 1;descripcion=Mouse USB
+2026-10-28 15:10:20 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-02|categoria=tecnologia
+2026-10-28 15:10:20 | RESPUESTA | SIQP/1.0|15|WEB01|SI-02|WEB-01|categoria=tecnologia;productos=computadora,mouse
+2026-10-28 15:10:20 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=computadora
+2026-10-28 15:10:20 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=computadora;cantidad=15;precio=350000;ubicacion=Bodega 1;descripcion=Computadora de escritorio
+2026-10-28 15:10:20 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=mouse
+2026-10-28 15:10:20 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=mouse;cantidad=40;precio=8500;ubicacion=Bodega 1;descripcion=Mouse USB
+2026-10-28 15:10:22 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-02|categoria=tecnologia
+2026-10-28 15:10:22 | RESPUESTA | SIQP/1.0|15|WEB01|SI-02|WEB-01|categoria=tecnologia;productos=computadora,mouse
+2026-10-28 15:10:22 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=computadora
+2026-10-28 15:10:22 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=computadora;cantidad=15;precio=350000;ubicacion=Bodega 1;descripcion=Computadora de escritorio
+2026-10-28 15:10:22 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=mouse
+2026-10-28 15:10:22 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=mouse;cantidad=40;precio=8500;ubicacion=Bodega 1;descripcion=Mouse USB
+2026-10-28 15:10:24 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-02|categoria=tecnologia
+2026-10-28 15:10:24 | RESPUESTA | SIQP/1.0|15|WEB01|SI-02|WEB-01|categoria=tecnologia;productos=computadora,mouse
+2026-10-28 15:10:24 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=computadora
+2026-10-28 15:10:24 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=computadora;cantidad=15;precio=350000;ubicacion=Bodega 1;descripcion=Computadora de escritorio
+2026-10-28 15:10:24 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=mouse
+2026-10-28 15:10:24 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=mouse;cantidad=40;precio=8500;ubicacion=Bodega 1;descripcion=Mouse USB
+2026-10-28 15:10:26 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-02|categoria=tecnologia
+2026-10-28 15:10:26 | RESPUESTA | SIQP/1.0|15|WEB01|SI-02|WEB-01|categoria=tecnologia;productos=computadora,mouse
+2026-10-28 15:10:26 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=computadora
+2026-10-28 15:10:26 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=computadora;cantidad=15;precio=350000;ubicacion=Bodega 1;descripcion=Computadora de escritorio
+2026-10-28 15:10:26 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=mouse
+2026-10-28 15:10:26 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=mouse;cantidad=40;precio=8500;ubicacion=Bodega 1;descripcion=Mouse USB
+2026-10-28 15:10:28 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-02|categoria=tecnologia
+2026-10-28 15:10:28 | RESPUESTA | SIQP/1.0|15|WEB01|SI-02|WEB-01|categoria=tecnologia;productos=computadora,mouse
+2026-10-28 15:10:28 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=computadora
+2026-10-28 15:10:28 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=computadora;cantidad=15;precio=350000;ubicacion=Bodega 1;descripcion=Computadora de escritorio
+2026-10-28 15:10:28 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=mouse
+2026-10-28 15:10:28 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=mouse;cantidad=40;precio=8500;ubicacion=Bodega 1;descripcion=Mouse USB
+2026-10-28 15:10:30 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-02|categoria=tecnologia
+2026-10-28 15:10:30 | RESPUESTA | SIQP/1.0|15|WEB01|SI-02|WEB-01|categoria=tecnologia;productos=computadora,mouse
+2026-10-28 15:10:30 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=computadora
+2026-10-28 15:10:30 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=computadora;cantidad=15;precio=350000;ubicacion=Bodega 1;descripcion=Computadora de escritorio
+2026-10-28 15:10:30 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=mouse
+2026-10-28 15:10:30 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=mouse;cantidad=40;precio=8500;ubicacion=Bodega 1;descripcion=Mouse USB
+2026-10-28 15:10:32 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-02|categoria=tecnologia
+2026-10-28 15:10:32 | RESPUESTA | SIQP/1.0|15|WEB01|SI-02|WEB-01|categoria=tecnologia;productos=computadora,mouse
+2026-10-28 15:10:32 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=computadora
+2026-10-28 15:10:32 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=computadora;cantidad=15;precio=350000;ubicacion=Bodega 1;descripcion=Computadora de escritorio
+2026-10-28 15:10:32 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=mouse
+2026-10-28 15:10:32 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=mouse;cantidad=40;precio=8500;ubicacion=Bodega 1;descripcion=Mouse USB
+2026-10-28 15:10:34 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-02|categoria=tecnologia
+2026-10-28 15:10:34 | RESPUESTA | SIQP/1.0|15|WEB01|SI-02|WEB-01|categoria=tecnologia;productos=computadora,mouse
+2026-10-28 15:10:34 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=computadora
+2026-10-28 15:10:34 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=computadora;cantidad=15;precio=350000;ubicacion=Bodega 1;descripcion=Computadora de escritorio
+2026-10-28 15:10:34 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=mouse
+2026-10-28 15:10:34 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=mouse;cantidad=40;precio=8500;ubicacion=Bodega 1;descripcion=Mouse USB
+2026-10-28 15:10:36 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-02|categoria=tecnologia
+2026-10-28 15:10:36 | RESPUESTA | SIQP/1.0|15|WEB01|SI-02|WEB-01|categoria=tecnologia;productos=computadora,mouse
+2026-10-28 15:10:36 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=computadora
+2026-10-28 15:10:36 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=computadora;cantidad=15;precio=350000;ubicacion=Bodega 1;descripcion=Computadora de escritorio
+2026-10-28 15:10:36 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=mouse
+2026-10-28 15:10:36 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=mouse;cantidad=40;precio=8500;ubicacion=Bodega 1;descripcion=Mouse USB
+2026-10-28 15:10:38 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-02|categoria=tecnologia
+2026-10-28 15:10:38 | RESPUESTA | SIQP/1.0|15|WEB01|SI-02|WEB-01|categoria=tecnologia;productos=computadora,mouse
+2026-10-28 15:10:38 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=computadora
+2026-10-28 15:10:38 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=computadora;cantidad=15;precio=350000;ubicacion=Bodega 1;descripcion=Computadora de escritorio
+2026-10-28 15:10:38 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=mouse
+2026-10-28 15:10:38 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=mouse;cantidad=40;precio=8500;ubicacion=Bodega 1;descripcion=Mouse USB
+2026-10-28 15:10:40 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-02|categoria=tecnologia
+2026-10-28 15:10:40 | RESPUESTA | SIQP/1.0|15|WEB01|SI-02|WEB-01|categoria=tecnologia;productos=computadora,mouse
+2026-10-28 15:10:40 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=computadora
+2026-10-28 15:10:40 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=computadora;cantidad=15;precio=350000;ubicacion=Bodega 1;descripcion=Computadora de escritorio
+2026-10-28 15:10:40 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=mouse
+2026-10-28 15:10:40 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=mouse;cantidad=40;precio=8500;ubicacion=Bodega 1;descripcion=Mouse USB
+2026-10-28 15:10:42 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-02|categoria=tecnologia
+2026-10-28 15:10:42 | RESPUESTA | SIQP/1.0|15|WEB01|SI-02|WEB-01|categoria=tecnologia;productos=computadora,mouse
+2026-10-28 15:10:42 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=computadora
+2026-10-28 15:10:42 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=computadora;cantidad=15;precio=350000;ubicacion=Bodega 1;descripcion=Computadora de escritorio
+2026-10-28 15:10:42 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=mouse
+2026-10-28 15:10:42 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=mouse;cantidad=40;precio=8500;ubicacion=Bodega 1;descripcion=Mouse USB
+2026-10-28 15:10:44 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-02|categoria=tecnologia
+2026-10-28 15:10:44 | RESPUESTA | SIQP/1.0|15|WEB01|SI-02|WEB-01|categoria=tecnologia;productos=computadora,mouse
+2026-10-28 15:10:44 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=computadora
+2026-10-28 15:10:44 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=computadora;cantidad=15;precio=350000;ubicacion=Bodega 1;descripcion=Computadora de escritorio
+2026-10-28 15:10:44 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=mouse
+2026-10-28 15:10:44 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=mouse;cantidad=40;precio=8500;ubicacion=Bodega 1;descripcion=Mouse USB
+2026-10-28 15:10:46 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-02|categoria=tecnologia
+2026-10-28 15:10:46 | RESPUESTA | SIQP/1.0|15|WEB01|SI-02|WEB-01|categoria=tecnologia;productos=computadora,mouse
+2026-10-28 15:10:46 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=computadora
+2026-10-28 15:10:46 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=computadora;cantidad=15;precio=350000;ubicacion=Bodega 1;descripcion=Computadora de escritorio
+2026-10-28 15:10:46 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=mouse
+2026-10-28 15:10:46 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=mouse;cantidad=40;precio=8500;ubicacion=Bodega 1;descripcion=Mouse USB
+2026-10-28 15:10:48 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-02|categoria=tecnologia
+2026-10-28 15:10:48 | RESPUESTA | SIQP/1.0|15|WEB01|SI-02|WEB-01|categoria=tecnologia;productos=computadora,mouse
+2026-10-28 15:10:48 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=computadora
+2026-10-28 15:10:48 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=computadora;cantidad=15;precio=350000;ubicacion=Bodega 1;descripcion=Computadora de escritorio
+2026-10-28 15:10:48 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=mouse
+2026-10-28 15:10:48 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=mouse;cantidad=40;precio=8500;ubicacion=Bodega 1;descripcion=Mouse USB
+2026-10-28 15:11:30 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-02|categoria=tecnologia
+2026-10-28 15:11:30 | RESPUESTA | SIQP/1.0|15|WEB01|SI-02|WEB-01|categoria=tecnologia;productos=computadora,mouse
+2026-10-28 15:11:30 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=computadora
+2026-10-28 15:11:30 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=computadora;cantidad=15;precio=350000;ubicacion=Bodega 1;descripcion=Computadora de escritorio
+2026-10-28 15:11:30 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=mouse
+2026-10-28 15:11:30 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=mouse;cantidad=40;precio=8500;ubicacion=Bodega 1;descripcion=Mouse USB
+2026-10-28 15:11:51 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-02|categoria=tecnologia
+2026-10-28 15:11:51 | RESPUESTA | SIQP/1.0|15|WEB01|SI-02|WEB-01|categoria=tecnologia;productos=computadora,mouse
+2026-10-28 15:11:51 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=computadora
+2026-10-28 15:11:51 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=computadora;cantidad=15;precio=350000;ubicacion=Bodega 1;descripcion=Computadora de escritorio
+2026-10-28 15:11:51 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=mouse
+2026-10-28 15:11:51 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=mouse;cantidad=40;precio=8500;ubicacion=Bodega 1;descripcion=Mouse USB
+2026-10-28 15:11:51 | SOLICITUD | SIQP/1.0|14|WEB01|WEB-01|SI-02|categoria=tecnologia
+2026-10-28 15:11:51 | RESPUESTA | SIQP/1.0|15|WEB01|SI-02|WEB-01|categoria=tecnologia;productos=computadora,mouse
+2026-10-28 15:11:51 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=computadora
+2026-10-28 15:11:51 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=computadora;cantidad=15;precio=350000;ubicacion=Bodega 1;descripcion=Computadora de escritorio
+2026-10-28 15:11:51 | SOLICITUD | SIQP/1.0|18|WEB02|WEB-01|SI-02|categoria=tecnologia;producto=mouse
+2026-10-28 15:11:51 | RESPUESTA | SIQP/1.0|19|WEB02|SI-02|WEB-01|categoria=tecnologia;producto=mouse;cantidad=40;precio=8500;ubicacion=Bodega 1;descripcion=Mouse USB
+2026-10-28 15:26:13 | ERROR_REGISTRO | VSocket::TryToConnect
