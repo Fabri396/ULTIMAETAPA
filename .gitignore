@@ -1,0 +1,16 @@
+cat > .gitignore <<'EOF'
+# Archivos objeto
+*.o
+
+# Ejecutables compilados
+*.out
+*.exe
+
+# Archivos temporales
+*.tmp
+*~
+
+# Bitacoras
+logs/
+
+EOF
